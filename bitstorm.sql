@@ -1,4 +1,3 @@
-
 CREATE TABLE peer (
   id int(10) unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY,
   peer_id char(40) NOT NULL UNIQUE KEY,
@@ -23,5 +22,5 @@ CREATE TABLE peer_torrent (
 
 CREATE TABLE `torrent` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  `hash` char(40) NOT NULL UNIQUE KEY COMMENT 'info_hash',
+  `hash` char(40) NOT NULL UNIQUE KEY COMMENT 'info_hash'
 );

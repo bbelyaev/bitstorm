@@ -8,3 +8,10 @@ BitStorm [was originally written](https://web.archive.org/web/20111101105301/htt
 Peter created a fork of his project to add MySQL support, allowing it to scale. In 2011, [Josh Duff](http://joshduff.com/) made [some changes](https://code.google.com/p/bitstorm/) to allow more efficient use of the database, and further scaling.
 
 BitStorm: a very light bittorrent tracker that anyone can install!
+
+mysql:
+CREATE USER 'announcer'@'%' IDENTIFIED BY '123';
+create database announcer;
+GRANT ALL PRIVILEGES ON announcer . * TO 'announcer'@'%';
+FLUSH PRIVILEGES;
+
