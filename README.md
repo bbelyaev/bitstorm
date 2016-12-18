@@ -9,9 +9,11 @@ Peter created a fork of his project to add MySQL support, allowing it to scale. 
 
 BitStorm: a very light bittorrent tracker that anyone can install!
 
-mysql:
-CREATE USER 'announcer'@'%' IDENTIFIED BY '123';
-create database announcer;
-GRANT ALL PRIVILEGES ON announcer . * TO 'announcer'@'%';
-FLUSH PRIVILEGES;
+<h3>mysql:</h3>
+<i>
+CREATE USER 'announcer'@'%' IDENTIFIED BY '123';<br />
+create database announcer;<br />
+GRANT ALL PRIVILEGES ON announcer . * TO 'announcer'@'%';<br />
+FLUSH PRIVILEGES;<br />
+</i>
 
